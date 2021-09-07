@@ -1,5 +1,5 @@
-const Migrations = artifacts.require("Migrations");
+const ErenToken = artifacts.require("ErenToken");
 
 module.exports = function(deployer) {
-  deployer.deploy(Migrations);
+  deployer.deploy(ErenToken);
 };
